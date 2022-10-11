@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #8f9de3;
+   
+    font-family: 'Karla', sans-serif;
+}
+.App{
+    text-align: center;
+    min-height: 500px;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.start-btn
+{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4D5B9E;
+    color: white;
+    font-size: larger;
+    border-color: none;
+    margin: 30px;
+}
+.ListRow
+{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #DBDEF0 solid 2px;
+    padding: 20px;
+}
+.Row
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    /* grid-template-rows: 200px ; */
+    gap: 40px;
+    
+}
+.Anser-btn
+{
+    background-color: white;
+    color: #293264;
+    border: #293264 2px solid;
+    border-radius: 10px;
+    min-width: 100px;
+    width: auto;
+    height: auto;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.Anser-btn:hover
+{
+    background-color: #D6DBF5;
+}
